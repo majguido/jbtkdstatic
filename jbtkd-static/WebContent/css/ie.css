@@ -1,0 +1,12 @@
+.menu ul {behavior: url(js/PIE.htc);}
+.button a,
+.button2 a,
+.box,
+.box-2,
+.box-4,
+.box-5,
+.timetable,
+h3 {behavior: url(js/PIE.htc); position:relative;}
+
+.button a {line-height:29px;}
+h3 {background-color:transparent;}
