@@ -114,11 +114,12 @@ h1 {
 		/*width:316px;
 		height:57px;*/
 		width:474px;
-		height:86px;
+		height:182px;
 		margin:0 auto;
 		text-indent:-9999em;
 		/*background:url(../images/logo.png) 0 0 no-repeat;*/
-		background:url(../images/logo_large.png) 0 0 no-repeat;
+		/* background:url(../images/logo_large.png) 0 0 no-repeat; */
+		background:url(../images/logo-jbtkd-gold-474-182.png) 0 0 no-repeat;
 	}
 	h1 strong {
 		display:block;

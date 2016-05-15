@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title></title>
+    <title>About Us</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
@@ -9,6 +9,34 @@
     <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	<style>
+		.about-us-header {
+			font-family: 'Anton', sans-serif;
+		    font-size: 18px;
+		    line-height: 2em;
+		    font-weight: 300;
+		    color: #fff;
+		    text-transform: uppercase;
+		    padding: 0 0 6px 0px !important;
+		    position: relative;
+		    z-index: 2;
+		}
+		ul.bullets {
+		    list-style: none; /* Remove list bullets */
+		    padding: 0;
+		    margin: 0;
+		}
+		
+/* 		ul.bullets li { 
+		    padding-left: 16px; 
+		} */
+		
+		ul.bullets li:before {
+		    content: "•" !important; /* Insert content that looks like bullets */
+		    padding-right: 8px;
+		    color: white; /* Or a color you prefer */
+		}
+	</style>
     <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
     <script src="js/superfish.js" type="text/javascript"></script>
     <script src="js/jquery.hoverIntent.js" type="text/javascript"></script>
@@ -35,9 +63,9 @@
         <header>
         	<div class="main indent-bot">
                 <h1>
-                	<strong>Jeramy Black's</strong>
+                	<!-- <strong>Jeramy Black's</strong> -->
                 	<a href="index.html">TaeKwonDo</a>
-                    <strong>Academy</strong>
+                    <!-- <strong>Academy</strong> -->
                 </h1>
             </div>
             <div class="wrap indent-bot index">
@@ -90,9 +118,32 @@
                             <div class="timetable">
                             	<div class="padding">
                             		<table><tr><td>
-                                	<p class="indent-bot">Founded in 2000, Jeramy Black's TaeKwonDo Acadamy is a modern martial arts training center offering programs for students of all ages. Classes are specifically structured for each age group for maximum results and enjoyment. Each 10 week training cycle focuses on one of our 5 core tenets: RESPECT, LEADERSHIP, STRENGTH, COMMITMENT, and KNOWLEDGE. <br/><br/> Our Instructors are dedicated to continually bettering themselves, and in turn, the other students of the academy. There are 6 Levels of the Instructor Program. At each level, instructors get more responsibility and experience in teaching this art. Our instructors are trained to work with students and to help them achieve their goals. In Leadership and Instructor Training Seminars, Instructors have a chance to hone their skills through different exercises, role-play drills, and seminar based teaching. Our staff is trained to motivate students of all ages, ranks, and fitness levels. Call to schedule your free trial class and see why our academy is the area's premiere martial arts program!</p>
-                                	</td><td>
-                                	<img src="images/BlackAndLowe.png" />
+										<div class="about-us-header">ABOUT OUR ACADEMY</div>
+										<p class="indent-bot">
+											Founded in 2000, Jeramy Black's TaeKwonDo Academy is a modern martial arts training center offering programs for students of all ages. 
+											Classes are specifically structured for each age group for maximum results and enjoyment. Each 10 week training cycle focuses on one 
+											of our 5 core tenets: 
+										</p>
+										<ul class="bullets">
+											<li>LEADERSHIP</li>
+											<li>STRENGTH</li>
+											<li>COMMITMENT</li>
+											<li>KNOWLEDGE</li>
+											<li>RESPECT</li>
+										</ul>
+										<br/>
+										<div class="about-us-header">ABOUT OUR INSTRUCTOR TEAM</div>
+										<p class="indent-bot">
+											Our Instructors are dedicated to continually bettering themselves, and in turn, the other students of the academy. There are 6 Levels 
+											of the Instructor Program; at each level, instructors get more responsibility and experience in teaching this art. Our instructors are 
+											trained to work with students to help them achieve their goals. In Leadership and Instructor Training Seminars, instructors have a chance 
+											to hone their skills through different exercises, role-play drills and seminar based teaching. Our instructors are trained to motivate 
+											students of all ages, ranks and fitness levels. Call to schedule your free trial class and see why our academy is the area's premiere 
+											martial arts program!
+                                		</p>
+                                	</td>
+                                	<td>
+                                		<img src="images/BlackAndLowe.png" />
                                 	</td></tr></table>
                                 </div>
                             </div>
