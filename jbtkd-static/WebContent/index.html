@@ -9,7 +9,9 @@
     <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-    <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <!-- <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script> -->
+    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- <script src="js/unslider.js"></script> -->
     <script src="js/superfish.js" type="text/javascript"></script>
     <script src="js/jquery.hoverIntent.js" type="text/javascript"></script>
     <script src="js/jquery.color.js" type="text/javascript"></script>
@@ -47,7 +49,7 @@
             <div class="wrap">
                 <div class="menu-row">
                     <nav>
-                        <ul class="menu">
+                        <ul class="menu" style="margin-left:130px !important;">
                             <li><a class="active" href="index.html">Home</a></li>
                             <li><a href="AboutUs.html">About</a></li>
                             <li><a href="Staff.html">Our Staff</a></li>
@@ -60,7 +62,7 @@
                                     <li><a href="Impact.html">Adults</a></li>
                                 </ul>
                             </li>
-                            <li><a href="Testimonials.html">Testimonials</a></li>
+                            <!-- <li><a href="Testimonials.html">Testimonials</a></li> -->
                             <li><a href="ContactUs.html">Contact Us</a></li>
                         </ul>
                     </nav>
@@ -107,13 +109,13 @@
                 <div class="container_12">
                     <div class="wrapper_4columns">
                     	<article class="grid_4">
-                        	<h3>Find Us On Facebook</h3>
-                            <div class="box">
+                        	<h3 class="jbtkd-gold">Find Us On Facebook</h3>
+                            <div class="box" style="min-height:423px;">
                             	<iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FJeramy-Blacks-TaeKwonDo-Academy%2F365670774571&amp;width=292&amp;height=258&amp;colorscheme=dark&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:250px;" allowTransparency="true"></iframe>
                             </div>
                         </article>
                         <article class="grid_4">
-                        	<h3>Contact Us</h3>
+                        	<h3 class="jbtkd-gold">Contact Us</h3>
                             <div class="box">
                             	<div class="padding">
                             		<figure class="img-indent-bot">
@@ -128,8 +130,8 @@
                             </div>
                         </article>
                         <article class="grid_4">
-                        	<h3>About Us</h3>
-                            <div class="box">
+                        	<h3 class="jbtkd-gold">About Us</h3>
+                            <div class="box" style="min-height:423px;">
                             	<div class="padding">
                                     <div class="maxheight">
                                         <p class="p2">Founded in 2000, Jeramy Black's TaeKwonDo Acadamy is a modern martial arts training center offering programs for students of all ages.  Classes are specifically structured for each age group for maximum results and enjoyment. Each 10 week training cycle focuses on one of our 5 core tenets: RESPECT, LEADERSHIP, STRENGTH, COMMITMENT, and KNOWLEDGE.</p>
@@ -139,16 +141,44 @@
                                 </div>
                             </div>
                         </article>
-                        <!--
                         <article class="grid_4">
-                        	<h3>Latest Tweets</h3>
-                            <div class="box">
-                            	<a class="twitter-timeline" href="https://twitter.com/jblacktkd" data-widget-id="381172379096870914">Tweets by @jblacktkd</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
+                        	<h3 class="jbtkd-gold">Testimonials</h3>
+                            <div class="box" style="min-height:423px;">
+                            	<div class="center pt5">
+                            		<img src="images/double-quote.png" width="32" height="32" alt="double-quote">
+                            	</div>
+                            	<div id="testimonialOne" style="padding-top:10px;padding-left:10px;padding-right:10px;padding-bottom:0px;">
+	                            	I am a 37 year old male. My wife, 38, and my daughter, 8, have been student’s at Jeramy Black’s TaeKwonDo Academy for 8 months. 
+	                            	We enjoy the experience each time we attend class. My wife appreciates the self defense portion of class and my daughter loves 
+	                            	the challenging aspects and the fun atmosphere of learning. I had a very athletic childhood. Becoming a student at Jeramy Black’s 
+	                            	TaeKwonDo Academy has given me the opportunity to once again challenge myself physically, mentally, and competitively. Most of all, 
+	                            	our family has come closer together through helping and motivating each other with this common interest. We love it, appreciate it, 
+	                            	and look forward to continuing our TaeKwonDo journey.
+                            	</div>
+                            	<div id="testimonialTwo" style="padding-top:10px;padding-left:10px;padding-right:10px;padding-bottom:0px;display:none;">
+	                            	Jeramy Black’s TaeKwonDo Academy is centered around the tenets: Honor, Courtesy, Integrity, Perseverance, Self-Control, Courage and 
+	                            	Community. We have two sons training under Mr. Black. One has been training since 2000 and the other since 2003. We are often asked 
+	                            	why our children have continued in this program for so many years. Mr. Black has been a mentor and wonderful example of the tenets 
+	                            	that he teaches. Mr. Black is a skilled and talented martial artist. He has a passion for what he teaches and a gift for bringing 
+	                            	out the best in each individual student. Mr. Black has guided and encouraged our children to strive for their own personal best. 
+	                            	We couldn’t think of a better sport, and more importantly, a better success coach to guide our children to reach their full potential.
+                            	</div>
+                            	<div id="testimonialThree" style="padding-top:10px;padding-left:10px;padding-right:10px;padding-bottom:0px;display:none;">
+	                            	Since beginning TaeKwonDo two years ago, I have noticed many profound changes, including higher self-esteem, increased fitness, and 
+	                            	weight loss. When I first began, I weighed over 300 pounds. Combined with physical activity, both inside and outside of class and a 
+	                            	healthy diet, I have lost over 50 pounds and I am confident I will lose more and reach my goal weight. Additionally, attending the 
+	                            	academy has given me the opportunity to meet many great people. I began TaeKwonDo as a hobby, and while it is still a great hobby, 
+	                            	it has led me to increased health, higher self-esteem, and a greater ability to protect myself. The skills I have learned here have 
+	                            	been beneficial to me in my physical and mental health and has given me additional tools and abilities that are useful to me in both 
+	                            	personal and professional settings.
+                            	</div>
+								<div id="testimonial-footer" style="display:table-cell;position: absolute;left: 0;bottom: 0;">
+									<img id="imageOne" src="images/circles-1.png" class="valign-bottom p0" style="position: absolute;left: 0;bottom: 0;">
+									<img id="imageTwo" src="images/circles-2.png" class="valign-bottom p0" style="position: absolute;left: 0;bottom: 0;display:none;">
+									<img id="imageThree" src="images/circles-3.png" class="valign-bottom p0" style="position: absolute;left: 0;bottom: 0;display:none;">
+								</div>
                             </div>
-                        </article>
-                        -->
+                        </article>                       
                     </div>
                 </div>
             </div>
@@ -167,7 +197,7 @@
                             <li><a href="AboutUs.html">About</a></li>
                             <li><a href="Staff.html">Our Staff</a></li>
                             <li><a href="Classes.html">Class Schedule</a></li>
-                            <li><a href="Testimonials.html">Testimonials</a></li>
+                            <!-- <li><a href="Testimonials.html">Testimonials</a></li> -->
                             <li><a href="ContactUs.html">Contact Us</a></li>
                         </ul>
                     </nav>
@@ -177,6 +207,69 @@
         </div>
     </footer>
     <script type="text/javascript">
+		var testimonial = 1;
+    
+		$(document).ready(function() {
+			rotateTestimonial(testimonial);
+		});
+    
+		function rotateTestimonial(testimonial) {
+			
+			setTimeout(function (){
+				testimonial += 1;
+				
+				if (testimonial == 4)
+					testimonial = 1;
+				
+				switch(testimonial) {
+				case 1:
+					$("#testimonialThree").fadeTo(3000, 0);
+					setTimeout(function (){
+						$("#testimonialOne").fadeTo(3000, 1);
+					},250);
+					$("#testimonialTwo").hide();
+					$("#testimonialThree").hide();
+					$("#imageThree").fadeTo(3000, 0);
+					setTimeout(function (){
+						$("#imageOne").fadeTo(3000, 1);	
+					},250);
+					$("#imageTwo").hide();
+					$("#imageThree").hide();
+					break;
+				case 2:
+					$("#testimonialOne").fadeTo(3000, 0);
+					setTimeout(function (){
+						$("#testimonialTwo").fadeTo(3000, 1);	
+					},250);
+					$("#testimonialOne").hide();
+					$("#testimonialThree").hide();
+					$("#imageOne").fadeTo(3000, 0);
+					setTimeout(function (){
+						$("#imageTwo").fadeTo(3000, 1);		
+					},250);
+					$("#imageOne").hide();
+					$("#imageThree").hide();
+					break;
+				case 3:
+					$("#testimonialTwo").fadeTo(3000, 0);
+					setTimeout(function (){
+						$("#testimonialThree").fadeTo(3000, 1);		
+					},250);
+					$("#testimonialOne").hide();
+					$("#testimonialTwo").hide();
+					$("#imageTwo").fadeTo(3000, 0);
+					setTimeout(function (){
+						$("#imageThree").fadeTo(3000, 1);			
+					},250);
+					$("#imageOne").hide();
+					$("#imageTwo").hide();
+					break;
+				}
+				
+				rotateTestimonial(testimonial);
+			}, 20000);
+		}
+		
 		$(window).load(function() {
 			$('.slider')._TMS({
 				duration:800,
@@ -189,5 +282,6 @@
 			});
 		});
     </script>
+    <!-- <script>$(function() { $('.banner').unslider() })</script> -->
 </body>
 </html>

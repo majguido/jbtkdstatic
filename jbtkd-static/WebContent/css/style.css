@@ -729,6 +729,59 @@ footer {
 } 
 html, body {height:100%;}
 
+.jbtkd-gold {
+	color: #d5b02b;	
+}
+
+.jbtkd-red {
+	color: #7c0f24
+}
+
+.center {
+	margin-left:auto !important;
+	margin-right:auto !important;
+	text-align:center !important;	
+}
+
+.main-menu {
+	style="margin-left:130px !important;"	
+}
+
+.p5 {
+	padding:5px;
+}
+
+.p10 {
+	padding:10px;
+}
+
+.p0 {
+	padding:0px;
+}
+
+.pt5 {
+	padding-top:5px;
+}
+
+.pt10 {
+	padding-top:10px;
+}
+
+.valign-bottom {
+	vertical-align: bottom;
+}
+
+div#imageContainer {
+    background: #ccc;
+    
+    height: 160px;  
+    vertical-align: bottom;
+    display: table-cell;
+}
+
+#imageContainer img {
+    vertical-align: bottom
+}
 /* ---------------------------------------- */
 		/*	Twitter
 		/* ---------------------------------------- */
