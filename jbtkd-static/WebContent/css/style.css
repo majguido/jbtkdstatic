@@ -604,7 +604,7 @@ dl.schedule strong {
 				display:block;
 				min-height:42px;
 			}
-			#contact-form label.message {height:268px;}
+			#contact-form label.message {height:228px;} /* changed 268 to 228 */
 			
 			#contact-form input {
 				width:325px;
@@ -624,7 +624,7 @@ dl.schedule strong {
 			}
 			#contact-form .area .error { float:none;}
 			#contact-form textarea {
-				height:250px;
+				height:200px; /* changed 250 to 200 */
 				width:458px;
 				max-height:250px;
 				max-width:458px;
